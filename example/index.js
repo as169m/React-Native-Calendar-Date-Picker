@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
-import CustomCalendarModal from "./src/CalendarModal"; // Adjust the import path as necessary
+import CalendarModal from "../src/CalendarModal"; // Adjust the import path as necessary
 
 const CalendarScreen = () => {
   const [isCalendarVisible, setCalendarVisible] = useState(false);
@@ -17,7 +17,7 @@ const CalendarScreen = () => {
         <Text style={styles.openText}>Pick a Date</Text>
       </TouchableOpacity>
 
-      <CustomCalendarModal
+      <CalendarModal
         visible={isCalendarVisible}
         onClose={() => setCalendarVisible(false)}
         onDateSelect={(date) => setSelectedDate(date)}
