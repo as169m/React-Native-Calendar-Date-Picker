@@ -1,6 +1,6 @@
 {
   "name": "react-native-calendar-modal-date-picker",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A reusable calendar modal with date range, min/max date, and form integration for React Native.",
   "main": "index.js",
   "keywords": [
